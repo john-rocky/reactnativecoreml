@@ -12,6 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		733FED7C2CE5EDBA00C0D4E9 /* yolo11s.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 733FED7B2CE5EDBA00C0D4E9 /* yolo11s.mlpackage */; };
+		733FED7E2CE5EDF400C0D4E9 /* YOLODetectorBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 733FED7D2CE5EDF400C0D4E9 /* YOLODetectorBridge.m */; };
+		733FED992CE6137100C0D4E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FED982CE6137100C0D4E9 /* ViewController.swift */; };
+		733FED9B2CE6143400C0D4E9 /* ViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FED9A2CE6143400C0D4E9 /* ViewModule.swift */; };
+		733FED9D2CE63CD500C0D4E9 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FED9C2CE63CD500C0D4E9 /* VideoCapture.swift */; };
+		733FED9F2CE63E8F00C0D4E9 /* BoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FED9E2CE63E8F00C0D4E9 /* BoundingBoxView.swift */; };
 		7699B88040F8A987B510C191 /* libPods-reactcoreml-reactcoremlTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-reactcoreml-reactcoremlTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		CEECAF469F17D2C77F190D2C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
@@ -43,6 +49,13 @@
 		5709B34CF0A7D63546082F79 /* Pods-reactcoreml.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactcoreml.release.xcconfig"; path = "Target Support Files/Pods-reactcoreml/Pods-reactcoreml.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-reactcoreml-reactcoremlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactcoreml-reactcoremlTests.debug.xcconfig"; path = "Target Support Files/Pods-reactcoreml-reactcoremlTests/Pods-reactcoreml-reactcoremlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-reactcoreml.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactcoreml.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		733FED782CE5EDAA00C0D4E9 /* reactcoreml-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reactcoreml-Bridging-Header.h"; sourceTree = "<group>"; };
+		733FED7B2CE5EDBA00C0D4E9 /* yolo11s.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolo11s.mlpackage; sourceTree = "<group>"; };
+		733FED7D2CE5EDF400C0D4E9 /* YOLODetectorBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOLODetectorBridge.m; sourceTree = "<group>"; };
+		733FED982CE6137100C0D4E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		733FED9A2CE6143400C0D4E9 /* ViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModule.swift; sourceTree = "<group>"; };
+		733FED9C2CE63CD500C0D4E9 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		733FED9E2CE63E8F00C0D4E9 /* BoundingBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxView.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactcoreml/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-reactcoreml-reactcoremlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactcoreml-reactcoremlTests.release.xcconfig"; path = "Target Support Files/Pods-reactcoreml-reactcoremlTests/Pods-reactcoreml-reactcoremlTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -95,6 +108,13 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				733FED7D2CE5EDF400C0D4E9 /* YOLODetectorBridge.m */,
+				733FED7B2CE5EDBA00C0D4E9 /* yolo11s.mlpackage */,
+				733FED782CE5EDAA00C0D4E9 /* reactcoreml-Bridging-Header.h */,
+				733FED982CE6137100C0D4E9 /* ViewController.swift */,
+				733FED9C2CE63CD500C0D4E9 /* VideoCapture.swift */,
+				733FED9E2CE63E8F00C0D4E9 /* BoundingBoxView.swift */,
+				733FED9A2CE6143400C0D4E9 /* ViewModule.swift */,
 			);
 			name = reactcoreml;
 			sourceTree = "<group>";
@@ -209,7 +229,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -396,8 +416,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733FED9D2CE63CD500C0D4E9 /* VideoCapture.swift in Sources */,
+				733FED992CE6137100C0D4E9 /* ViewController.swift in Sources */,
+				733FED7E2CE5EDF400C0D4E9 /* YOLODetectorBridge.m in Sources */,
+				733FED7C2CE5EDBA00C0D4E9 /* yolo11s.mlpackage in Sources */,
+				733FED9B2CE6143400C0D4E9 /* ViewModule.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				733FED9F2CE63E8F00C0D4E9 /* BoundingBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MR4P6CL3X;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = reactcoreml/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -485,6 +512,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reactcoreml;
+				SWIFT_OBJC_BRIDGING_HEADER = "reactcoreml-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -498,6 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MR4P6CL3X;
 				INFOPLIST_FILE = reactcoreml/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reactcoreml;
+				SWIFT_OBJC_BRIDGING_HEADER = "reactcoreml-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -586,10 +616,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -658,10 +685,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
